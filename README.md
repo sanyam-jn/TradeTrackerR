@@ -2,7 +2,7 @@
 
 ![R](https://img.shields.io/badge/R-4.1.0-blue)
 ![Shiny](https://img.shields.io/badge/Shiny-1.7.0-brightgreen)
-![License](https://img.shields.io/badge/license-MIT-green)
+
 
 An interactive stock market analysis dashboard built with R Shiny that fetches real-time stock data from Alpha Vantage API. The application allows users to analyze multiple stocks simultaneously, visualize price trends, and download historical data.
 
@@ -102,8 +102,7 @@ shiny::runApp()
 
 Alpha Vantage has the following rate limits:
 - 5 API calls per minute for free tier
-- 500 API calls per day for free tier
-- Consider upgrading for higher limits
+
 
 ## 🤝 Contributing
 
@@ -113,9 +112,7 @@ Alpha Vantage has the following rate limits:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
